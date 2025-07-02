@@ -34,6 +34,35 @@ body {
     display: flex;
 }
 
+.hero-container {
+    display: flex;
+    background: #1f2937;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+.hero-section-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hero-text-header{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FaF8;
+}
+
+.hero-text-subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-text-button button{
+   border: 0;
+}
+
+}
 
 .page-container {
     display: flex;
@@ -50,6 +79,7 @@ body {
 .info-section {
     display: flex;
     flex-direction: column;
+    padding-top: 15px;
     
 }
 
