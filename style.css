@@ -1,9 +1,36 @@
+.quote-section {
 
-* {
-    font-family: Roboto, monospace;
+    background: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5px;
+    height: 300px;
+    width: 50%;
+    /margin: 10%;
+    
+    
+
 }
 
+.quote-text {
+    font-style: italic;
+}
 
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+.quote-margin {
+    background: #e5e7eb;
+    display: flex;
+    justify-content: center
+}
 
 .signup {
     height: 72px;
@@ -15,13 +42,13 @@
     margin: 100px;
     border-radius: 10px;
     padding: 50px;
+    margin:15%;
     
 
 }
 .signup-header, button {
     font-weight: bold;
     font-size: large;
-
 }
 
 
