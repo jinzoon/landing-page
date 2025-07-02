@@ -4,6 +4,10 @@ body {
 
 }
 
+.header, .hero-container, .page-body {
+    padding: 0 15%;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -11,7 +15,7 @@ body {
     height: 72px;
     background: #1f2937;
     color: white;
-    padding: 0 2%;
+    
     position: sticky;
     top: 0;
 }
@@ -58,11 +62,11 @@ body {
     font-size: 18px;
     color: #e5e7eb;
 }
+
 .hero-text-button button{
    border: 0;
 }
 
-}
 
 .page-container {
     display: flex;
@@ -110,6 +114,7 @@ body {
 .info-picture-container {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 0 10%;
 }
 
