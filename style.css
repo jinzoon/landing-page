@@ -9,10 +9,8 @@
     align-items: flex-end;
     padding: 5px;
     height: 300px;
-    width: 50%;
-    /margin: 10%;
-    
-    
+    padding: 10px 20%;
+       
 
 }
 
@@ -26,11 +24,6 @@
     
 }
 
-.quote-margin {
-    background: #e5e7eb;
-    display: flex;
-    justify-content: center
-}
 
 .signup {
     height: 72px;
