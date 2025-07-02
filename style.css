@@ -1,10 +1,19 @@
 body {
     font-family: Roboto, monospace;
     margin: 0;
-    display: flex;
-    flex-direction: column;
+
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-body {
+    
+
+}
 .picture-box img  {
     border: 2px solid blue;
     border-radius: 10px;
@@ -114,4 +123,6 @@ button {
     color: white;
     margin-top: auto;
     width: auto;
+    position: sticky;
+    bottom: 0;
 }
