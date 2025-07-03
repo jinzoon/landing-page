@@ -46,8 +46,10 @@ body {
     display: flex;
     background: #1f2937;
     justify-content: center;
-    gap: 150px;
+    align-items: center;
+    gap: 50px;
     padding-bottom: 50px;
+    flex-wrap: wrap-reverse;
 }
 
 .hero-section-text {
@@ -70,6 +72,20 @@ body {
 .hero-text-button button{
    border: 0;
 }
+
+.hero-image{
+    max-width: 40vh;
+    height:auto;
+    min-width: 25vh;
+}
+
+.hero-image img{
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    width: auto;
+}
+
 
 
 .page-container {
@@ -104,6 +120,11 @@ body {
     flex-direction: column;
     max-width: 150px;
     padding-bottom: 5px;
+}
+
+.picture-box img{
+    width: 150;
+    height: auto;
 }
 
 .picture-one, .picture-two, .picture-three, .picture-four {
