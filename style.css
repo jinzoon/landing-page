@@ -127,18 +127,22 @@ body {
 }
 
 .picture-box img{
-    width: 150;
+    width: 300;
     height: auto;
 }
 
 .picture-one, .picture-two, .picture-three, .picture-four {
     padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .text {
     display:flex;
-    justify-content: center;
     color: #1f2937;
+    width: 150px;
+    text-align: center;
 }
 
 .info-picture-container {
