@@ -40,8 +40,8 @@ body {
 
 .header-link {
     font-size: 18px;
-   
     display: flex;
+    align-items: center;
 }
 
 .hero-container {
